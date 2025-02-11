@@ -1,1 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  /* Breakpoints Custom */
+  --breakpoint-xs: 23rem;
+  --breakpoint-2xl: 90rem;
+  --breakpoint-3xl:96rem;
+  /* Colors Custom */
+  --color-*: initial;
+  --color-electric-violet-50: hsl(254, 100%, 97%);
+  --color-electric-violet-100: hsl(250, 100%, 95%);
+  --color-electric-violet-200: hsl(250, 100%, 92%);
+  --color-electric-violet-300: hsl(254, 100%, 85%);
+  --color-electric-violet-400: hsl(256, 100%, 76%);
+  --color-electric-violet-500: hsl(259, 100%, 65%);
+  --color-electric-violet-600: hsl(263, 93%, 58%);
+  --color-electric-violet-700: hsl(264, 78%, 50%);
+  --color-electric-violet-800: hsl(264, 78%, 42%);
+  --color-electric-violet-900: hsl(264, 75%, 35%);
+  --color-electric-violet-950: hsl(262, 81%, 23%);
+  --color-carnation-50: hsl(0, 100%, 97%);
+  --color-carnation-100: hsl(0, 100%, 94%);
+  --color-carnation-200: hsl(0, 100%, 89%);
+  --color-carnation-300: hsl(0, 100%, 81%);
+  --color-carnation-400: hsl(0, 100%, 67%);
+  --color-carnation-500: hsl(0, 93%, 60%);
+  --color-carnation-600: hsl(0, 79%, 51%);
+  --color-carnation-700: hsl(0, 81%, 42%);
+  --color-carnation-800: hsl(0, 78%, 35%);
+  --color-carnation-900: hsl(0, 69%, 31%);
+  --color-carnation-950: hsl(0, 82%, 15%);
+  --color-white-50: hsl(0, 0%, 100%);
+  --color-white-100: hsl(0, 0%, 94%);
+  --color-white-200: hsl(0, 0%, 86%);
+  --color-white-300: hsl(0, 0%, 74%);
+  --color-white-400: hsl(0, 0%, 60%);
+  --color-white-500: hsl(0, 0%, 49%);
+  --color-white-600: hsl(0, 0%, 40%);
+  --color-white-700: hsl(0, 0%, 32%);
+  --color-white-800: hsl(0, 0%, 27%);
+  --color-white-900: hsl(0, 0%, 24%);
+  --color-white-950: hsl(0, 0%, 16%);
+  --color-woodsmoke-50: hsl(0, 0%, 96%);
+  --color-woodsmoke-100: hsl(0, 0%, 91%);
+  --color-woodsmoke-200: hsl(0, 0%, 82%);
+  --color-woodsmoke-300: hsl(0, 0%, 69%);
+  --color-woodsmoke-400: hsl(0, 0%, 53%);
+  --color-woodsmoke-500: hsl(0, 0%, 43%);
+  --color-woodsmoke-600: hsl(0, 0%, 36%);
+  --color-woodsmoke-700: hsl(0, 0%, 31%);
+  --color-woodsmoke-800: hsl(0, 0%, 27%);
+  --color-woodsmoke-900: hsl(0, 0%, 24%);
+  --color-woodsmoke-950: hsl(0, 0%, 8%);
+  /* Fonts Custom */
+  --font-*: initial;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
