@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "type": "number",
+    "label": "Day",
+    "name": "day",
+    "placeholder": "DD",
+    "title": ["day", "days"],
+    "day": 0,
+    "age": 0
+  },
+  {
+    "id": 2,
+    "type": "number",
+    "label": "Month",
+    "name": "month",
+    "placeholder": "MM",
+    "title": ["month", "months"],
+    "month": 0,
+    "age": 0
+  },
+  {
+    "id": 3,
+    "type": "number",
+    "label": "Year",
+    "name": "year",
+    "placeholder": "YYYY",
+    "title": ["year", "years"],
+    "year": 0,
+    "age": 0
+  }
+]
