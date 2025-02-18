@@ -29,7 +29,10 @@ const Form = ({
       </div>
       <div className="relative flex flex-col justify-center items-center md:items-end">
         <hr className="absolute w-full text-woodsmoke-100 border-t-2" />
-        <button className="relative rounded-full p-5 bg-electric-violet-600 cursor-pointer transition-colors duration-300 hover:bg-electric-violet-800">
+        <button
+          type="submit"
+          className="relative rounded-full p-5 bg-electric-violet-600 cursor-pointer transition-colors duration-300 hover:bg-electric-violet-800"
+        >
           <img src={arrowIcon} alt="Arrow" className="size-5 md:size-9" />
         </button>
       </div>
