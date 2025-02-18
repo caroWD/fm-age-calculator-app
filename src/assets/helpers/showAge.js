@@ -2,8 +2,10 @@ export const getAge = (form) => {
   const newForm = [...form];
   const [{ day }, { month }, { year }] = newForm;
 
+  const date = [year, month - 1, day];
+
   const now = Date.now();
-  const birthdate = new Date(`${year}, ${month}, ${day}`).getTime();
+  const birthdate = new Date(date[0], date[1], date[2]).getTime();
 
   const difference = now - birthdate;
 
